@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/gagalin" rel="stylesheet">             
+    <link rel="stylesheet" href="mywebpage.css">
+    <link href="https://fonts.cdnfonts.com/css/gagalin" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/db-eurothai-x-bold" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="mywebpage.js"></script>
+</head>
+<body>
+        <div class ="toolbars">
+            <a href="#"><img class="logo" src="imagess/logo.PNG" alt="Logo"/></a>
+            <ul class = "menubtn">
+                <li> <button>Producer</button> </li>
+                <li> <button>DJ</button>  </li>
+                <li> <button>Manager</button> </li>
+            </ul>
+        </div>
+    <section class = "firstpage">
+        <h1 class = "maintitle"> REISA  <br> MANAGEMENT </br></h1>
+
+        <div class="btns1">
+            <script>
+                let choosedjbtn = createbutton("SELECT DJ")
+                let seereportsbtn = createbutton("SHOW STATS")
+            </script>
+        </div>
+    </section>
+    <section class = "secondpage">
+        <h1 class =maintitle2> Choose your favorite dj </h1>
+        <div class="btns2">
+            <script>
+                
+                createbutton2("DJ BLAZE","odd","Fuses electronic beats with jazz melodies, creating unique musical experiences.")
+                createbutton2("DJ TOTOTE","even","Connects with the audience through hypnotic beats and ethereal sounds.")
+                createbutton2("DJ LUNA","odd","Master of techno, transforming any dance floor into an unforgettable, energetic party.")
+                createbutton2("DJ MAGNO","even","Remix specialist, blending genres to make crowds vibrate with excitement.")
+            </script>
+        </div>
+    </section>
+    <section class = "thirdpage">
+        <h1 class = "maintitle3">When is your dj killing it?</h1>
+            <section class = "body3">
+                <form class="calendar">
+                    <h2> Choose a date</h2>
+                    <label for="start">Choose a date:</label>
+                    <input type="date" id="start" name="date" required>
+                    <input type="submit" value="Submit">
+                </form>
+                <div>
+                    <table class = "time">
+                        <th> <h2> Choose a time</h2></th>
+                        <tr><td><input type="submit" value="20:00-22:00"> </td>
+                            <td><input type="submit" value="22:00-24:00"> </td>
+                            <td><input type="submit" value="24:00-02:00"> </td>
+                        </tr>
+                        <tr><td><input type="submit" value="02:00-04:00"> </td>
+                            <td><input type="submit" value="04:00-06:00"> </td>
+                            <td><input type="submit" value="06:00-08:00"> </td>
+                        </tr>
+
+                    </table>
+                </div>
+            </section>
+        </section>
+    </section>
+    <section class = "forthpage">
+        <h1 class = "maintitle4">Reports Dj/producer</h1>
+        <div class="body4">
+            <section class = "songstable">
+                <table >
+                    <thead>
+                        <tr>
+                            <th>Songs</th>
+                            <th>Artist</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Despacito</td>
+                            <td>Luis Fonsi ft. Daddy Yankee</td>
+                            <td>2017</td>
+                        </tr>
+                        <tr>
+                            <td>Taki Taki</td>
+                            <td>DJ Snake ft.  Ozuna</td>
+                            <td>2018</td>
+                        </tr>
+                        <tr>
+                            <td>Baila Baila Baila</td>
+                            <td>Rosalía</td>
+                            <td>2019</td>
+                        </tr>
+                        <tr>
+                            <td>La Modelo</td>
+                            <td>Ozuna ft. Cardi B</td>
+                            <td>2018</td>
+                        </tr>
+                        <tr>
+                            <td>Dákiti</td>
+                            <td>Bad Bunny & Jhay Cortez</td>
+                            <td>2020</td>
+                        </tr>
+                        <tr>
+                            <td>Ella y Yo</td>
+                            <td>Don Omar ft. Aventura</td>
+                            <td>2005</td>
+                        </tr>
+                        <tr>
+                            <td>Con Altura</td>
+                            <td>Rosalía ft. J Balvin</td>
+                            <td>2019</td>
+                        </tr>
+                        <tr>
+                            <td>Te Boté</td>
+                            <td>Nicky Jam, Ozuna, Bad Bunny</td>
+                            <td>2018</td>
+                        </tr>
+                        <tr>
+                            <td>Criminología</td>
+                            <td>J Balvin</td>
+                            <td>2020</td>
+                        </tr>
+                        <tr>
+                            <td>Vente Pa' Ca</td>
+                            <td>Enrique Iglesias ft. Wisin</td>
+                            <td>2017</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class = "songsimg">
+                <h2> Song selected - Bad Bunny</h2>
+                <h3> Reproduced by the Dj - No</h3>
+                <img src = "imagess/tebote.jpg">
+            </section>
+        </div>
+    </section>
